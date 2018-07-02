@@ -4,7 +4,7 @@
 #
 Name     : R-dbarts
 Version  : 0.9.3
-Release  : 12
+Release  : 13
 URL      : https://cran.r-project.org/src/contrib/dbarts_0.9-3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/dbarts_0.9-3.tar.gz
 Summary  : Discrete Bayesian Additive Regression Trees Sampler
