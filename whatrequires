@@ -1,6 +1,9 @@
 # This file contains recursive sources that require this package
 R-DendSer
 R-ade4
+R-adegenet
+R-adegraphics
+R-adephylo
 R-analogue
 R-bipartite
 R-clue
@@ -8,12 +11,19 @@ R-dendextend
 R-dtw
 R-fpc
 R-gmodels
+R-haplo.stats
 R-mvoutlier
 R-pdfCluster
+R-phangorn
+R-phylobase
+R-phylogram
 R-prabclus
 R-rms
 R-robCompositions
+R-seqinr
 R-seriation
 R-spdep
+R-taxize
 R-treatSens
+R-vcdExtra
 R-vegan
