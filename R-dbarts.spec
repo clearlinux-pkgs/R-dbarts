@@ -4,7 +4,7 @@
 #
 Name     : R-dbarts
 Version  : 0.9.8
-Release  : 19
+Release  : 20
 URL      : https://cran.r-project.org/src/contrib/dbarts_0.9-8.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/dbarts_0.9-8.tar.gz
 Summary  : Discrete Bayesian Additive Regression Trees Sampler
@@ -35,10 +35,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1545249560
+export SOURCE_DATE_EPOCH=1552749125
 
 %install
-export SOURCE_DATE_EPOCH=1545249560
+export SOURCE_DATE_EPOCH=1552749125
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -74,8 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export _R_CHECK_FORCE_SUGGESTS_=false
-R CMD check --no-manual --no-examples --no-codoc -l %{buildroot}/usr/lib64/R/library dbarts|| : 
-cp ~/.stash/* %{buildroot}/usr/lib64/R/library/*/libs/ || :
+R CMD check --no-manual --no-examples --no-codoc  dbarts || :
 
 
 %files
@@ -116,7 +115,21 @@ cp ~/.stash/* %{buildroot}/usr/lib64/R/library/*/libs/ || :
 /usr/lib64/R/library/dbarts/include/dbarts/scratch.hpp
 /usr/lib64/R/library/dbarts/include/dbarts/state.hpp
 /usr/lib64/R/library/dbarts/include/dbarts/types.hpp
-/usr/lib64/R/library/dbarts/libs/symbols.rds
+/usr/lib64/R/library/dbarts/tests/testthat.R
+/usr/lib64/R/library/dbarts/tests/testthat/test-01-dbartsDataArgs.R
+/usr/lib64/R/library/dbarts/tests/testthat/test-02-dbartsModelArgs.R
+/usr/lib64/R/library/dbarts/tests/testthat/test-03-dbartsControl.R
+/usr/lib64/R/library/dbarts/tests/testthat/test-04-continuousResponse.R
+/usr/lib64/R/library/dbarts/tests/testthat/test-05-binaryResponse.R
+/usr/lib64/R/library/dbarts/tests/testthat/test-06-dbartsSampler.R
+/usr/lib64/R/library/dbarts/tests/testthat/test-07-multithreaded.R
+/usr/lib64/R/library/dbarts/tests/testthat/test-08-xbart.R
+/usr/lib64/R/library/dbarts/tests/testthat/test-09-predict.R
+/usr/lib64/R/library/dbarts/tests/testthat/test-10-makeModelMatrix.R
+/usr/lib64/R/library/dbarts/tests/testthat/test-11-multipleAssignment.R
+/usr/lib64/R/library/dbarts/tests/testthat/test-12-multipleChains.R
+/usr/lib64/R/library/dbarts/tests/testthat/test-13-bart2.R
+/usr/lib64/R/library/dbarts/tests/testthat/test-14-rbart.R
 
 %files lib
 %defattr(-,root,root,-)
