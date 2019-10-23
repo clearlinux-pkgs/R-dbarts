@@ -4,7 +4,7 @@
 #
 Name     : R-dbarts
 Version  : 0.9.13
-Release  : 30
+Release  : 31
 URL      : https://cran.r-project.org/src/contrib/dbarts_0.9-13.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/dbarts_0.9-13.tar.gz
 Summary  : Discrete Bayesian Additive Regression Trees Sampler
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : GPL-2.0+
 Requires: R-dbarts-lib = %{version}-%{release}
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 No detailed description available
@@ -32,10 +33,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1569613640
+export SOURCE_DATE_EPOCH=1571815758
 
 %install
-export SOURCE_DATE_EPOCH=1569613640
+export SOURCE_DATE_EPOCH=1571815758
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
