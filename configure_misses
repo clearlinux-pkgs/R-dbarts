@@ -1,9 +1,12 @@
 Configure miss: C/C++ restrict keyword
 Configure miss: C/C++ restrict keyword
 Configure miss: C/C++ restrict keyword
+Configure miss: C/C++ restrict keyword
 Configure miss: g++ -std=gnu++17 option to enable C++11 features
 Configure miss: g++ -std=gnu++17 option to enable C++11 features
 Configure miss: g++ -std=gnu++17 option to enable C++11 features
+Configure miss: g++ -std=gnu++17 option to enable C++11 features
+Configure miss: whether log1p is in std::
 Configure miss: whether log1p is in std::
 Configure miss: whether log1p is in std::
 Configure miss: whether log1p is in std::
