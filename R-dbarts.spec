@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : R-dbarts
-Version  : 0.9.26
-Release  : 69
-URL      : https://cran.r-project.org/src/contrib/dbarts_0.9-26.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/dbarts_0.9-26.tar.gz
+Version  : 0.9.28
+Release  : 70
+URL      : https://cran.r-project.org/src/contrib/dbarts_0.9-28.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/dbarts_0.9-28.tar.gz
 Summary  : Discrete Bayesian Additive Regression Trees Sampler
 Group    : Development/Tools
 License  : GPL-2.0+
@@ -41,10 +41,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1714070285
+export SOURCE_DATE_EPOCH=1714675341
 
 %install
-export SOURCE_DATE_EPOCH=1714070285
+export SOURCE_DATE_EPOCH=1714675341
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
