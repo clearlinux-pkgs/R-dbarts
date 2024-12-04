@@ -4,6 +4,9 @@ Configure miss: C/C++ restrict keyword
 Configure miss: g++ -std=gnu++17 option to enable C++11 features
 Configure miss: g++ -std=gnu++17 option to enable C++11 features
 Configure miss: g++ -std=gnu++17 option to enable C++11 features
+Configure miss: g++ -std=gnu++17 options needed to detect all undeclared functions
+Configure miss: g++ -std=gnu++17 options needed to detect all undeclared functions
+Configure miss: g++ -std=gnu++17 options needed to detect all undeclared functions
 Configure miss: whether log1p is in std::
 Configure miss: whether log1p is in std::
 Configure miss: whether log1p is in std::
